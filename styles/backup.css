@@ -1,0 +1,52 @@
+*{
+    font-size: 55%;
+    overflow-x: hidden;
+}
+
+
+
+header{
+    flex-direction: column;
+}
+
+header .logo{
+    overflow: hidden;
+}
+
+header nav{
+   height: 100vh;
+   flex-direction: column;
+   margin: 0;
+   gap: 0;
+   justify-content: center;
+   position: relative; 
+   top: -1000px;
+   transition: top .2s linear;
+  
+        
+}
+
+.menu-active{
+    top: 0;
+}
+
+.menu{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+header nav a{
+    border: 1px solid #000;
+    width: 95vw;
+    text-align: center;
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
